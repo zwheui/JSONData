@@ -1,9 +1,29 @@
-[
-    {
-        "key": "key01",
-        "value": "value01"
-    }, {
-        "key": "key02",
-        "value": "value02"
+{
+    "myPosts": [{
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+    "comments": [{
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
     }
-]
+}
