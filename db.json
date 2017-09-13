@@ -105,5 +105,20 @@
     ],
     "profile": {
         "name": "typicode"
-    }
+    },
+    "menu": [
+
+        {
+            "name": "Settings",
+            "href": "/settings"
+        },
+        {
+            "name": "Personal Meeting",
+            "routerLink": "pMeeting",
+            "queryParams": {
+                "param01": true,
+                "param02": "abc"
+            }
+        }
+    ]
 }
