@@ -1,0 +1,23 @@
+{
+  "name": "jsondata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwheui/JSONData.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwheui/JSONData/issues"
+  },
+  "homepage": "https://zwheui.github.io/JSONData",
+  "dependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
