@@ -109,10 +109,12 @@
     "menu": [
 
         {
+            "id": 1,
             "name": "Settings",
             "href": "/settings"
         },
         {
+            "id": 1,
             "name": "Personal Meeting",
             "routerLink": "pMeeting",
             "queryParams": {
@@ -120,15 +122,19 @@
                 "param02": "abc"
             }
         }, {
+            "id": 1,
             "name": "Desktop Tools",
             "routerLink": "dTools"
         }, {
+            "id": 1,
             "name": "Schedule For",
             "routerLink": "dTools"
         }, {
+            "id": 1,
             "name": "WebEx",
             "routerLink": "webEx"
         }, {
+            "id": 1,
             "name": "Audio Config 123",
             "routerLink": "aConfig"
         }
